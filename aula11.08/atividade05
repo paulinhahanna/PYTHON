@@ -3,7 +3,7 @@
 #ordem de tratamento 
 #0123456... #-65321
 
-nome = "Lara"
+nome = "paula"
 print(nome[2])
 print(nome[-3])
 
