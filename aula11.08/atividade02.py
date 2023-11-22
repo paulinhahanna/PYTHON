@@ -11,6 +11,3 @@ elif(entrada == 'S' or entrada == 's'):
     print("Voce escolheu passar")
 else:
     print("voce não selecionou pra entrar")
-
-
-   
