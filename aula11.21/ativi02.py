@@ -1,3 +1,2 @@
-for i in range(1000):
-    if  100 * 100:
-        print(i)
+for multiplos in range(0,1100,100):
+    print(multiplos)
