@@ -1,2 +1,2 @@
-comp = float(input('digite o comprimento da sua string:'))
-print(comp)
+comp = (input('digite uma palvra:'))
+print(len(comp))
