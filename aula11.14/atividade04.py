@@ -1,13 +1,16 @@
-letra1 = str(input("digite uma letra:"))
-letra2 = str(input("digite uma letra:"))
-letra3 = str(input("digite uma letra:"))
-letra4 = str(input("digite uma letra:"))
-letra5 = str(input("digite uma letra:"))
+lista_consoantes = []
+letra_1 = input("Digite uma letra: ")
+letra_2 = input("Digite uma letra: ")
 
-consoantes =  "b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z"
-vogais = "a,e,i,o,u"
-if ( consoantes):
-    print( "é consontes")
+if letra_1 != 'a' and letra_1 != 'e' and letra_1 != 'i' and letra_1 != 'o' and letra_1 != 'u':
+    print("É uma consoante")
+    lista_consoantes.append(letra_1)
+
+if letra_2 != 'a' and letra_2 != 'e' and letra_2 != 'i' and letra_2 != 'o' and letra_2 != 'u':
+    print("É uma consoante")
+    lista_consoantes.append(letra_2)
+
+print(lista_consoantes)
 
 
 
